@@ -1,0 +1,176 @@
+body {
+    padding:0;
+    border:0;
+    margin:0;
+    display:block;
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0px;
+    border: 0; 
+    width: 100px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100px;
+    height: 5px;
+    background: black;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: grey;
+    border: 2px solid #000000;
+    margin-top: -6px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100px;
+    height: 5px;
+    background: black;
+    border-radius: 3px;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: grey;
+    border: 2px solid #000000;
+}
+
+fieldset {
+    display: inline;
+    padding: 2px;
+    margin: 2px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border-width: 1.5px;
+    border-color:black;
+    background:white;
+}
+
+
+button {
+   margin: 2px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-width: 1.5px;
+   border-radius: 6px;
+   border-color: #000000;
+   outline: none;
+}
+
+input[type=text] {
+    margin: 2px;
+    padding: 2px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border-width: 1.5px;
+    border-color: #000000;
+    outline: none;
+    width: 80px;
+ }
+ 
+ 
+
+#canv_cons {
+    padding:0;
+    border:0;
+    margin:0;
+    position:absolute;
+    width:50%;
+    left:0;
+    height:inherit;
+    background-color:black;
+}
+#canvas {
+    padding:0;
+    border:0;
+    margin:0;
+    display:block;
+    position:absolute;
+    width:100%;
+    height:55%;
+    top:0;
+    z-index:2;
+}
+#vsep {
+    padding:0;
+    border:0;
+    margin:0;
+    display:block;
+    position:absolute;
+    width:100%;
+    height:4px;
+    background: grey;
+    cursor: move;
+    top: 80%;
+}
+#hsep {
+    padding:0;
+    border:0;
+    margin:0;
+    display:block;
+    position:absolute;
+    width:4px;
+    height:100%;
+    cursor: move;
+    background: grey; 
+    left: 80%;
+}
+
+#console {
+    padding:0;
+    margin:0;
+    /* border:1px;
+    border-style:solid;
+    border-color:white; */
+    display:block;
+    position:absolute;
+    width:100%;
+    height:35%;
+    bottom:0;
+    z-index:-2;
+    overflow:auto
+}
+#div_interf {
+    padding:0;
+    border:0;
+    margin:0;
+    display:block;
+    position:absolute;
+    width:50%;
+    right:0;
+    height:100%;
+    overflow:auto;
+    background-color: #F0F0F0;
+}
+#Interface {
+    margin:5px;
+    display:block;
+    font-family: monospace;
+    white-space: pre;
+    background-color: #F0F0F0;
+    /*Arial, Helvetica, sans-serif;*/
+}
+.CodeMirror{
+    height: auto;
+}
