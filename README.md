@@ -4,7 +4,7 @@ Model of the Solar System using EasyWebGL (WebGL wrapper)
 
 To test, just run solar_system.html.
 
-Some options are offered such as follow the earth's movement, speed-up time and display/hide the orbit trace.
+Some display options are offered such as follow the earth's movement, speed-up time and display/hide the orbit circles.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/44913276/77133966-d78e4600-6a43-11ea-998f-088f6794a4a0.png" width="100%" height="100%">
